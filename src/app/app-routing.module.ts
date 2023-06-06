@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountSummaryComponent } from './account/account-summary.component';
+import { AccountComponent } from './account/account.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'account-summary' },
+  { path: '', pathMatch: 'full', redirectTo: 'account' },
   {
-    path: 'account-summary',
-    component: AccountSummaryComponent,
+    path: 'account',
+    component: AccountComponent,
   },
+  { path: 'account-summary', component: AccountSummaryComponent },
 ];
 
 @NgModule({

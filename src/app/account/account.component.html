@@ -1,0 +1,14 @@
+<div>
+  <ul>
+    <li *ngFor="let account of accounts">
+      <div class="account-details">
+        <div>{{ account.title }}</div>
+        <div>{{ account.accountNumber }}</div>
+      </div>
+      <div class="account-details-right">
+        <div class="balance">{{ account.cumulativeBalance }}</div>
+        <div class="status">{{ account.accountStatus }}</div>
+      </div>
+    </li>
+  </ul>
+</div>
