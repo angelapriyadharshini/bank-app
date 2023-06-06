@@ -9,7 +9,7 @@ const routes: Routes = [
     path: 'account',
     component: AccountComponent,
   },
-  { path: 'account-summary', component: AccountSummaryComponent },
+  { path: 'account/:id', component: AccountSummaryComponent },
 ];
 
 @NgModule({

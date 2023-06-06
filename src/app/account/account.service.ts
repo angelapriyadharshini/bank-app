@@ -3,7 +3,7 @@ import { ACCOUNTS } from './mock-accounts';
 import { Observable, of } from 'rxjs';
 
 export interface Account {
-  id: string;
+  id: number;
   title: string;
   accountNumber: string;
   accountStatus: string;

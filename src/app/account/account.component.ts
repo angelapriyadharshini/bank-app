@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Account, AccountService } from './account.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-account',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './account.component.html',
   styleUrls: ['./account.component.css'],
 })

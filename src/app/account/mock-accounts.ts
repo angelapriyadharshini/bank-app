@@ -2,7 +2,7 @@ import { Account } from './account.service';
 
 export const ACCOUNTS: Account[] = [
   {
-    id: '1',
+    id: 1,
     title: 'Savings Account',
     accountNumber: '099-34XXX-765',
     accountStatus: 'ACTIVE',
@@ -10,7 +10,7 @@ export const ACCOUNTS: Account[] = [
     accountCurrency: 'LKR',
   },
   {
-    id: '2',
+    id: 2,
     title: 'Savings Account',
     accountNumber: '099-43XXX-922',
     accountStatus: 'INACTIVE',
@@ -18,7 +18,7 @@ export const ACCOUNTS: Account[] = [
     accountCurrency: 'LKR',
   },
   {
-    id: '3',
+    id: 3,
     title: 'ABC Visa Credit Card',
     accountNumber: '4534-XXXX-XXXX-9765',
     accountStatus: 'ACTIVE',
