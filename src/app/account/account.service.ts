@@ -19,4 +19,9 @@ export class AccountService {
     const accounts = of(ACCOUNTS);
     return accounts;
   }
+
+  getAccount(id: number): Observable<Account> {
+    const account = ACCOUNTS.find((account) => account.id === id)!;
+    return of(account);
+  }
 }
