@@ -15,13 +15,19 @@ export interface Account {
   providedIn: 'root',
 })
 export class AccountService {
+  constructor(private http: HttpClient) {}
+
   getAccounts(): Observable<Account[]> {
-    const accounts = of(ACCOUNTS);
-    return accounts;
+    return this.http
+      .get<Account[]>('assets/accounts.json');
   }
 
   getAccount(id: number): Observable<Account> {
-    const account = ACCOUNTS.find((account) => account.id === id)!;
-    return of(account);
+    return this.http.get<Account[]>('assets/accounts.json').pipe(
+      map((accs: any) => {
+        return accs.find((a: Account) => a.id === id);
+      })
+    );
+  }
   }
 }
