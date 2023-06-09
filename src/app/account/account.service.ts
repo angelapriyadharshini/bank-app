@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ACCOUNTS } from './mock-accounts';
-import { Observable, of } from 'rxjs';
+import { Observable, catchError, map, of, throwError } from 'rxjs';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
 export interface Account {
   id: number;
@@ -19,7 +20,8 @@ export class AccountService {
 
   getAccounts(): Observable<Account[]> {
     return this.http
-      .get<Account[]>('assets/accounts.json');
+      .get<Account[]>('assets/accounts.json')
+      .pipe(catchError(this.errorHandler));
   }
 
   getAccount(id: number): Observable<Account> {
@@ -29,5 +31,18 @@ export class AccountService {
       })
     );
   }
+
+  errorHandler(error: HttpErrorResponse) {
+    let errorMessage = '';
+    if (error.error instanceof ErrorEvent) {
+      // A client-side or network error
+      errorMessage = `Error: ${error.error.message}`;
+      console.error(errorMessage);
+    } else {
+      // server-side error
+      errorMessage = `Error code ${error.status} \nMessage: ${error.message}`;
+      console.error(errorMessage);
+    }
+    return throwError(() => errorMessage);
   }
 }

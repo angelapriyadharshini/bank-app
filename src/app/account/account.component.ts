@@ -19,8 +19,14 @@ export class AccountComponent {
   }
 
   getAccounts() {
-    this.accountService
-      .getAccounts()
-      .subscribe((accounts) => (this.accounts = accounts));
+    this.accountService.getAccounts().subscribe({
+      next: (accounts) => {
+        // loading - false
+        this.accounts = accounts;
+      },
+      error: (err) => {
+        //  loading - false
+      },
+    });
   }
 }

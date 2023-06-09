@@ -24,8 +24,14 @@ export class AccountSummaryComponent {
 
   getAccountSummary() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.accountService
-      .getAccount(id)
-      .subscribe((account) => (this.account = account));
+    this.accountService.getAccount(id).subscribe({
+      next: (account) => {
+        //  loading - false
+        this.account = account;
+      },
+      error: () => {
+        //  loading - false
+      },
+    });
   }
 }
