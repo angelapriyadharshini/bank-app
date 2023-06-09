@@ -19,9 +19,7 @@ export class AccountService {
   constructor(private http: HttpClient) {}
 
   getAccounts(): Observable<Account[]> {
-    return this.http
-      .get<Account[]>('assets/accounts.json')
-      .pipe(catchError(this.errorHandler));
+    return this.http.get<Account[]>('assets/accounts.json');
   }
 
   getAccount(id: number): Observable<Account> {
@@ -30,19 +28,5 @@ export class AccountService {
         return accs.find((a: Account) => a.id === id);
       })
     );
-  }
-
-  errorHandler(error: HttpErrorResponse) {
-    let errorMessage = '';
-    if (error.error instanceof ErrorEvent) {
-      // A client-side or network error
-      errorMessage = `Error: ${error.error.message}`;
-      console.error(errorMessage);
-    } else {
-      // server-side error
-      errorMessage = `Error code ${error.status} \nMessage: ${error.message}`;
-      console.error(errorMessage);
-    }
-    return throwError(() => errorMessage);
   }
 }
