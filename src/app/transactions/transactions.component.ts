@@ -6,7 +6,11 @@ import { Transaction } from './shared/transaction';
 @Component({
   selector: 'app-transaction',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    MatTableModule,
+    MatCardModule,
+  ],
   templateUrl: './transactions.component.html',
   styleUrls: ['./transactions.component.css'],
 })
