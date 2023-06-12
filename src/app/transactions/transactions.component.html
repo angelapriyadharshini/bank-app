@@ -1,5 +1,74 @@
 <mat-card>
   <mat-card-content>
+    <form [formGroup]="transactionHistoryForm" (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <mat-label>Enter a date range</mat-label>
+        <mat-date-range-input [rangePicker]="picker">
+          <input
+            matStartDate
+            formControlName="start"
+            placeholder="Start date"
+          />
+          <input matEndDate formControlName="end" placeholder="End date" />
+        </mat-date-range-input>
+        <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker"
+        ></mat-datepicker-toggle>
+        <mat-date-range-picker #picker></mat-date-range-picker>
+
+        <mat-error
+          *ngIf="
+            transactionHistoryForm.controls.start.hasError(
+              'matStartDateInvalid'
+            )
+          "
+          >Invalid start date</mat-error
+        >
+        <mat-error
+          *ngIf="
+            transactionHistoryForm.controls.end.hasError('matEndDateInvalid')
+          "
+          >Invalid end date</mat-error
+        >
+      </mat-form-field>
+      <button type="submit">Search</button>
+    </form>
+
+    <p>Selected range: {{ transactionHistoryForm.value | json }}</p>
+
+    <!-- <mat-form-field>
+      <mat-label>Enter a date range</mat-label>
+      <mat-date-range-input
+        [formGroup]="transactionHistoryRange"
+        [rangePicker]="picker"
+      >
+        <input matStartDate formControlName="start" placeholder="Start date" />
+        <input matEndDate formControlName="end" placeholder="End date" />
+      </mat-date-range-input>
+      <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+
+      <mat-error
+        *ngIf="
+          transactionHistoryRange.controls.start.hasError('matStartDateInvalid')
+        "
+        >Invalid start date</mat-error
+      >
+      <mat-error
+        *ngIf="
+          transactionHistoryRange.controls.end.hasError('matEndDateInvalid')
+        "
+        >Invalid end date</mat-error
+      >
+    </mat-form-field>
+
+    <p>Selected range: {{ transactionHistoryRange.value | json }}</p> -->
     <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
       <ng-container matColumnDef="transactionDate">
         <th mat-header-cell *matHeaderCellDef>Date</th>

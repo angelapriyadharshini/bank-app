@@ -1,0 +1,7 @@
+.transaction-table-header {
+  background-color: rgb(233, 233, 233);
+}
+
+.currency-column {
+  text-align: right;
+}

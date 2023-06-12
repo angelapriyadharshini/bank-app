@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { AccountService } from '../shared/account.service';
 import { Account } from '../shared/account';
+import { TransactionsComponent } from 'src/app/transactions/transactions.component';
 
 @Component({
   selector: 'app-account-summary',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TransactionsComponent],
   templateUrl: './account-summary.component.html',
   styleUrls: ['./account-summary.component.css'],
 })
