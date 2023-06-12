@@ -5,6 +5,8 @@ import { MatCardModule } from '@angular/material/card';
 import { TransactionService } from './shared/transaction.service';
 import { Transaction } from './shared/transaction';
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
+
 import {
   FormControl,
   FormGroup,
@@ -30,6 +32,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     NgIf,
     JsonPipe,
     MatNativeDateModule,
+    MatInputModule,
   ],
   templateUrl: './transactions.component.html',
   styleUrls: ['./transactions.component.css'],
@@ -45,6 +48,7 @@ export class TransactionsComponent {
   transactionHistoryForm = new FormGroup({
     start: new FormControl<Date | null>(null, Validators.required),
     end: new FormControl<Date | null>(null, Validators.required),
+    keyword: new FormControl(''),
   });
 
   constructor(private transactionService: TransactionService) {}

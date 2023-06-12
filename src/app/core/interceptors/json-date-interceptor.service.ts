@@ -27,14 +27,28 @@ export class JsonDateInterceptorService implements HttpInterceptor {
       })
     );
   }
+  isIsoDateString(value: any): boolean {
+    if (value === null || value === undefined) {
+      return false;
+    }
+    if (typeof value === 'string') {
+      return this._isoDateFormat.test(value);
+    }
+    return false;
+  }
   convert(body: any) {
     if (body === null || body === undefined) {
       return body;
     }
+    if (typeof body !== 'object') {
+      return body;
+    }
     for (const key of Object.keys(body)) {
       const value = body[key];
-      if (typeof value === 'string') {
-        return this._isoDateFormat.test(value);
+      if (this.isIsoDateString(value)) {
+        body[key] = new Date(value);
+      } else if (typeof value === 'object') {
+        this.convert(value);
       }
     }
   }
