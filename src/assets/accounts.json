@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Savings Account",
+    "accountNumber": "099-34XXX-765",
+    "accountStatus": "ACTIVE",
+    "cumulativeBalance": 123456.73,
+    "accountCurrency": "LKR",
+    "accountType": "SA"
+  },
+  {
+    "id": 2,
+    "title": "Savings Account",
+    "accountNumber": "099-43XXX-922",
+    "accountStatus": "INACTIVE",
+    "cumulativeBalance": 16356.03,
+    "accountCurrency": "LKR",
+    "accountType": "SA"
+  },
+  {
+    "id": 3,
+    "title": "ABC Visa Credit Card",
+    "accountNumber": "5892-XXXX-XXXX-3423",
+    "accountStatus": "ACTIVE",
+    "cumulativeBalance": 98043.53,
+    "accountCurrency": "LKR",
+    "accountType": "CC"
+  }
+]

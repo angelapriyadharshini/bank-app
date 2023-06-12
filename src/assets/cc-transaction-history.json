@@ -1,0 +1,1452 @@
+[
+  {
+    "transactionDate": "2023-06-07",
+    "transactionPostDate": "2023-06-09",
+    "transactionAmount": {
+      "amount": 168.49,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231600070000790000144",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-06-02",
+    "transactionPostDate": "2023-06-06",
+    "transactionAmount": {
+      "amount": 359.48,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231570070000610000024",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-31",
+    "transactionPostDate": "2023-06-05",
+    "transactionAmount": {
+      "amount": 3399,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231550070000790000011",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL VAS COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-31",
+    "transactionPostDate": "2023-06-02",
+    "transactionAmount": {
+      "amount": 2710.7,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231530070000650000170",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "THE LANKA HOSPITAL-PHA COLOMBO 05",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-31",
+    "transactionPostDate": "2023-06-02",
+    "transactionAmount": {
+      "amount": 926.78,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231530070000580000169",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-31",
+    "transactionPostDate": "2023-06-02",
+    "transactionAmount": {
+      "amount": 923.17,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231530070000500000129",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-30",
+    "transactionPostDate": "2023-06-02",
+    "transactionAmount": {
+      "amount": 5777.18,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231530070000970000122",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-30",
+    "transactionPostDate": "2023-06-02",
+    "transactionAmount": {
+      "amount": 200,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231530070000940000042",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-30",
+    "transactionPostDate": "2023-05-30",
+    "transactionAmount": {
+      "amount": 44185.29,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": " T231500083000010001400",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "TRANSFER PAYMENT",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-23",
+    "transactionPostDate": "2023-05-25",
+    "transactionAmount": {
+      "amount": 167.49,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231450070000590000019",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-23",
+    "transactionPostDate": "2023-05-25",
+    "transactionAmount": {
+      "amount": 167.52,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231450070000580000019",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-22",
+    "transactionPostDate": "2023-05-25",
+    "transactionAmount": {
+      "amount": 100,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231450070000060000255",
+      "transactionType": "U"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-24",
+    "transactionPostDate": "2023-05-24",
+    "transactionAmount": {
+      "amount": 25,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "19999999980524999781450",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "STAMP DUTY FEE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-22",
+    "transactionPostDate": "2023-05-24",
+    "transactionAmount": {
+      "amount": 205.84,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231440070000630000172",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-20",
+    "transactionPostDate": "2023-05-24",
+    "transactionAmount": {
+      "amount": 6270,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231440070001090000214",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-20",
+    "transactionPostDate": "2023-05-24",
+    "transactionAmount": {
+      "amount": 200,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231440070001030000137",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-19",
+    "transactionPostDate": "2023-05-23",
+    "transactionAmount": {
+      "amount": 173.36,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231430070000780000229",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-14",
+    "transactionPostDate": "2023-05-22",
+    "transactionAmount": {
+      "amount": 6323.94,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 20.99,
+      "currencyCode": "USD"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": "VT231410070001410000213",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Adobe Dublin IE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-18",
+    "transactionPostDate": "2023-05-18",
+    "transactionAmount": {
+      "amount": 44.43,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": "UT231380080000120000843",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Cash Back Srilanka",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-18",
+    "transactionPostDate": "2023-05-18",
+    "transactionAmount": {
+      "amount": 200,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": "UT231380077000060000552",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Bonus Cash Back Srilanka",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-14",
+    "transactionPostDate": "2023-05-16",
+    "transactionAmount": {
+      "amount": 6923.85,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 20.99,
+      "currencyCode": "USD"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231360070002160000188",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Adobe Dublin IE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-14",
+    "transactionPostDate": "2023-05-16",
+    "transactionAmount": {
+      "amount": 181.57,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231360070001780000255",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-11",
+    "transactionPostDate": "2023-05-15",
+    "transactionAmount": {
+      "amount": 326.58,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 0.99,
+      "currencyCode": "USD"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231340070001030000219",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "APPLE.COM/BILL ITUNES.COM IE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-04",
+    "transactionPostDate": "2023-05-09",
+    "transactionAmount": {
+      "amount": 2740,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231290070000320000036",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "PAYHERE GATEWAY .",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-03",
+    "transactionPostDate": "2023-05-08",
+    "transactionAmount": {
+      "amount": 436.18,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231270134000410000067",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME CBH",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-03",
+    "transactionPostDate": "2023-05-08",
+    "transactionAmount": {
+      "amount": 4900,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231270134000100000176",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "SCAN ALPINE WELIVERIYA",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-03",
+    "transactionPostDate": "2023-05-08",
+    "transactionAmount": {
+      "amount": 1000.31,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231270119000720000181",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-03",
+    "transactionPostDate": "2023-05-08",
+    "transactionAmount": {
+      "amount": 170.47,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231270119000570000012",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-05-03",
+    "transactionPostDate": "2023-05-03",
+    "transactionAmount": {
+      "amount": 55468.35,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": " T231230082000010001072",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "TRANSFER PAYMENT",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-28",
+    "transactionPostDate": "2023-05-02",
+    "transactionAmount": {
+      "amount": 6442.5,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231220123000120000155",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "KELLY FELDER DEHIWALA",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-27",
+    "transactionPostDate": "2023-05-02",
+    "transactionAmount": {
+      "amount": 6300,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231200083000040000178",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "MOBITEL RAILWAY Colombo 03",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-27",
+    "transactionPostDate": "2023-05-02",
+    "transactionAmount": {
+      "amount": 178,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231200070000660000194",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-25",
+    "transactionPostDate": "2023-04-28",
+    "transactionAmount": {
+      "amount": 10500,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231180070000040000007",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "MOBITEL RAILWAY Colombo 03",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-24",
+    "transactionPostDate": "2023-04-27",
+    "transactionAmount": {
+      "amount": 1980,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231170070000880000002",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIRECTPAY PVT LTD - COLOMBO 05",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-21",
+    "transactionPostDate": "2023-04-26",
+    "transactionAmount": {
+      "amount": 1600,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231160070000500000071",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "ARABIAN MALL COLOMBO 11",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-21",
+    "transactionPostDate": "2023-04-26",
+    "transactionAmount": {
+      "amount": 200,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231160070000150000077",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-24",
+    "transactionPostDate": "2023-04-24",
+    "transactionAmount": {
+      "amount": 775,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "19999999980424999751610",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "STAMP DUTY FEE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-21",
+    "transactionPostDate": "2023-04-21",
+    "transactionAmount": {
+      "amount": 56.2,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": "UT231110079000120000648",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Cash Back Srilanka",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-18",
+    "transactionPostDate": "2023-04-21",
+    "transactionAmount": {
+      "amount": 200,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231110070000190000119",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-20",
+    "transactionPostDate": "2023-04-20",
+    "transactionAmount": {
+      "amount": 968.4,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": "UT231100079000060000217",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Bonus Cash Back Srilanka",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-20",
+    "transactionPostDate": "2023-04-20",
+    "transactionAmount": {
+      "amount": 1039.5,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "UT231100075000040000340",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DCC Processing Fees - March",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-17",
+    "transactionPostDate": "2023-04-20",
+    "transactionAmount": {
+      "amount": 2490,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231100070000760000138",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIRECTPAY PVT LTD - COLOMBO 05",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-11",
+    "transactionPostDate": "2023-04-17",
+    "transactionAmount": {
+      "amount": 7177.06,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231060119000880000081",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "M N HEALTHCARE PHARM  MOUNT LAVINIA",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-11",
+    "transactionPostDate": "2023-04-17",
+    "transactionAmount": {
+      "amount": 412.59,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231060119000370000074",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-11",
+    "transactionPostDate": "2023-04-17",
+    "transactionAmount": {
+      "amount": 333.6,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 0.99,
+      "currencyCode": "USD"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231030070000860000003",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "APPLE.COM/BILL CORK IE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-07",
+    "transactionPostDate": "2023-04-11",
+    "transactionAmount": {
+      "amount": 176.26,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231010070001260000135",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-06",
+    "transactionPostDate": "2023-04-11",
+    "transactionAmount": {
+      "amount": 171.68,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231010070001230000018",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-06",
+    "transactionPostDate": "2023-04-10",
+    "transactionAmount": {
+      "amount": 168,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230990132000620000207",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME CBH",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-03",
+    "transactionPostDate": "2023-04-06",
+    "transactionAmount": {
+      "amount": 3099,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230960070000460000177",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL VAS COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-31",
+    "transactionPostDate": "2023-04-06",
+    "transactionAmount": {
+      "amount": 5900,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230950070000100000174",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-04-01",
+    "transactionPostDate": "2023-04-04",
+    "transactionAmount": {
+      "amount": 3000,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230940070000410000144",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "MEDIHELP HOSPITAL-PILI PILIYANDALA ",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-31",
+    "transactionPostDate": "2023-04-04",
+    "transactionAmount": {
+      "amount": 1322.84,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230940070001090000120",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-30",
+    "transactionPostDate": "2023-04-03",
+    "transactionAmount": {
+      "amount": 200,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230920071000320000023",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-29",
+    "transactionPostDate": "2023-03-31",
+    "transactionAmount": {
+      "amount": 163.82,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230900070000670000151",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-29",
+    "transactionPostDate": "2023-03-31",
+    "transactionAmount": {
+      "amount": 163.88,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230900070000660000194",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-27",
+    "transactionPostDate": "2023-03-27",
+    "transactionAmount": {
+      "amount": 54724,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": " T230860075000010003520",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "TRANSFER PAYMENT",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-23",
+    "transactionPostDate": "2023-03-27",
+    "transactionAmount": {
+      "amount": 29700,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 29700,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230850070001120000149",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "SP CALIA NATURAL NEW WESTMINST BC",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-24",
+    "transactionPostDate": "2023-03-24",
+    "transactionAmount": {
+      "amount": 715.53,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "19999999980324999796230",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "FINANCE CHARGES FOR THIS STATEMENT",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-24",
+    "transactionPostDate": "2023-03-24",
+    "transactionAmount": {
+      "amount": 588.81,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "19999999980324999796220",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "FINANCE CHARGES FOR LAST STATEMENT",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-24",
+    "transactionPostDate": "2023-03-24",
+    "transactionAmount": {
+      "amount": 25,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "19999999980324999796240",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "STAMP DUTY FEE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-24",
+    "transactionPostDate": "2023-03-24",
+    "transactionAmount": {
+      "amount": 18.23,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "2",
+      "referenceNumber": "UT230830079000120000491",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "Cash Back Srilanka",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-18",
+    "transactionPostDate": "2023-03-22",
+    "transactionAmount": {
+      "amount": 100,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230810070000500000156",
+      "transactionType": "B"
+    },
+    "acquirerReferenceNumber": "74544283079077020941179",
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-18",
+    "transactionPostDate": "2023-03-22",
+    "transactionAmount": {
+      "amount": 100,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230810070000490000010",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-19",
+    "transactionPostDate": "2023-03-21",
+    "transactionAmount": {
+      "amount": 176.12,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230800070001400000207",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-20",
+    "transactionPostDate": "2023-03-20",
+    "transactionAmount": {
+      "amount": 1750,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "19999999980320999964590",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "LATE PAYMENT CHARGE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-15",
+    "transactionPostDate": "2023-03-17",
+    "transactionAmount": {
+      "amount": 176.63,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230760070000790000187",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-15",
+    "transactionPostDate": "2023-03-17",
+    "transactionAmount": {
+      "amount": 199.84,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230760070000780000149",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-11",
+    "transactionPostDate": "2023-03-14",
+    "transactionAmount": {
+      "amount": 5600,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230730070000180000158",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "SPONGE PASTRY SHOP PVT COLOMBO 03",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-10",
+    "transactionPostDate": "2023-03-14",
+    "transactionAmount": {
+      "amount": 8000,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230730070001010000010",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "RAMANI FERNANDO SALONS COLOMBO 05",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-10",
+    "transactionPostDate": "2023-03-14",
+    "transactionAmount": {
+      "amount": 509.07,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230730070000690000156",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-11",
+    "transactionPostDate": "2023-03-13",
+    "transactionAmount": {
+      "amount": 334.29,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 0.99,
+      "currencyCode": "USD"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230720062000450000083",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "APPLE.COM/BILL ITUNES.COM IE",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-08",
+    "transactionPostDate": "2023-03-13",
+    "transactionAmount": {
+      "amount": 3384,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230710069000300000147",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-03-08",
+    "transactionPostDate": "2023-03-10",
+    "transactionAmount": {
+      "amount": 168.38,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230690069000920000118",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DROPME COLOMBO",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-02-28",
+    "transactionPostDate": "2023-03-07",
+    "transactionAmount": {
+      "amount": 100,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230640069000170000206",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  },
+  {
+    "transactionDate": "2023-02-27",
+    "transactionPostDate": "2023-03-02",
+    "transactionAmount": {
+      "amount": 5636,
+      "currencyCode": "LKR"
+    },
+    "transactionInformation": {
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT230610069000340000172",
+      "transactionType": "B"
+    },
+    "transactionDescriptions": {
+      "transactionCategory": null,
+      "transactionPartner": "DIGICEL PLC COLOMBO 02",
+      "transactionMode": "SYSTEM GENERATED"
+    },
+    "transactionAccountId": "3"
+  }
+]
