@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AccountSummaryComponent } from './account/account-summary.component';
-import { AccountComponent } from './account/account.component';
+import { AccountsComponent } from './accounts/accounts.component';
+import { AccountSummaryComponent } from './accounts/account-summary/account-summary.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'account' },
+  { path: '', pathMatch: 'full', redirectTo: 'accounts' },
   {
-    path: 'account',
-    component: AccountComponent,
+    path: 'accounts',
+    component: AccountsComponent,
   },
-  { path: 'account/:id', component: AccountSummaryComponent },
+  { path: 'accounts/:id', component: AccountSummaryComponent },
 ];
 
 @NgModule({
