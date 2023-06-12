@@ -9,9 +9,7 @@ import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable, catchError, retry, throwError } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class HttpErrorInterceptorService implements HttpInterceptor {
   constructor(private router: Router) {}
 
