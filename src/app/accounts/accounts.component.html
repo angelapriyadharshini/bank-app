@@ -2,7 +2,7 @@
   <ul>
     <li *ngFor="let account of accounts">
       <div class="account-details">
-        <div routerLink="/account/{{ account.id }}">{{ account.title }}</div>
+        <div routerLink="/accounts/{{ account.id }}">{{ account.title }}</div>
         <div>{{ account.accountNumber }}</div>
       </div>
       <div class="account-details-right">

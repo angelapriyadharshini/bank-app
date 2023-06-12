@@ -1,21 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AccountComponent } from './account.component';
-import { Account, AccountService } from './account.service';
-import { of } from 'rxjs';
+import { AccountsComponent } from './accounts.component';
+import { AccountService } from './shared/account.service';
 
 describe('AccountComponent', () => {
-  let component: AccountComponent;
-  let fixture: ComponentFixture<AccountComponent>;
+  let component: AccountsComponent;
+  let fixture: ComponentFixture<AccountsComponent>;
   let accountService: AccountService;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AccountComponent],
+      imports: [AccountsComponent],
     }).compileComponents();
     accountService = TestBed.inject(AccountService);
 
-    fixture = TestBed.createComponent(AccountComponent);
+    fixture = TestBed.createComponent(AccountsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

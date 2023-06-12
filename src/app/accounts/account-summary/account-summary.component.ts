@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
-import { Account, AccountService } from './account.service';
+import { AccountService } from '../shared/account.service';
+import { Account } from '../shared/account';
 
 @Component({
   selector: 'app-account-summary',

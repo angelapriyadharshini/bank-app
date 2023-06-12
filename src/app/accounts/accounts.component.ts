@@ -1,16 +1,17 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Account, AccountService } from './account.service';
 import { RouterModule } from '@angular/router';
+import { AccountService } from './shared/account.service';
+import { Account } from './shared/account';
 
 @Component({
   selector: 'app-account',
   standalone: true,
+  templateUrl: './accounts.component.html',
+  styleUrls: ['./accounts.component.css'],
   imports: [CommonModule, RouterModule],
-  templateUrl: './account.component.html',
-  styleUrls: ['./account.component.css'],
 })
-export class AccountComponent {
+export class AccountsComponent {
   accounts: Account[] = [];
 
   constructor(readonly accountService: AccountService) {}

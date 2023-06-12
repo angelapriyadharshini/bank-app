@@ -19,7 +19,7 @@ describe('AccountService', () => {
   it('#getAccounts should return all accounts from observable', (done: DoneFn) => {
     const accounts: Account[] = [
       {
-        id: '1',
+        id: 1,
         title: 'Savings Account',
         accountNumber: '099-34XXX-765',
         accountStatus: 'ACTIVE',
@@ -27,7 +27,7 @@ describe('AccountService', () => {
         accountCurrency: 'LKR',
       },
       {
-        id: '2',
+        id: 2,
         title: 'Savings Account',
         accountNumber: '099-43XXX-922',
         accountStatus: 'INACTIVE',
