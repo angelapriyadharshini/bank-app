@@ -1,3 +1,4 @@
+import { Injectable } from '@angular/core';
 import {
   HttpEvent,
   HttpHandler,
@@ -5,7 +6,7 @@ import {
   HttpRequest,
   HttpResponse,
 } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Observable, map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
