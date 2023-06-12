@@ -7,12 +7,12 @@ import {
   HttpResponse,
 } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
+import { Constants } from './../../app.constants';
 
 @Injectable({
   providedIn: 'root',
 })
 export class JsonDateInterceptorService implements HttpInterceptor {
-  private _isoDateFormat = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d*)?Z$/;
   intercept(
     req: HttpRequest<any>,
     next: HttpHandler
@@ -21,7 +21,7 @@ export class JsonDateInterceptorService implements HttpInterceptor {
       map((val: HttpEvent<any>) => {
         if (val instanceof HttpResponse) {
           const body = val.body;
-          this.convert(body);
+          this.convertDateStringToDate(body);
         }
         return val;
       })
@@ -32,11 +32,11 @@ export class JsonDateInterceptorService implements HttpInterceptor {
       return false;
     }
     if (typeof value === 'string') {
-      return this._isoDateFormat.test(value);
+      return Constants.ISO_DATE_FORMAT_REGEX.test(value);
     }
     return false;
   }
-  convert(body: any) {
+  convertDateStringToDate(body: any) {
     if (body === null || body === undefined) {
       return body;
     }
@@ -48,7 +48,7 @@ export class JsonDateInterceptorService implements HttpInterceptor {
       if (this.isIsoDateString(value)) {
         body[key] = new Date(value);
       } else if (typeof value === 'object') {
-        this.convert(value);
+        this.convertDateStringToDate(value);
       }
     }
   }
