@@ -74,12 +74,9 @@
   box-shadow: none !important;
 }
 
-.mat-column-transactionAmount {
-  text-align: right;
-  justify-content: flex-end;
-}
-
-.mat-column-cumulativeBalance {
+.mat-column-transactionAmount,
+.mat-column-cumulativeBalance,
+.mat-column-amountOut {
   text-align: right;
   justify-content: flex-end;
 }
