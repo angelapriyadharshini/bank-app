@@ -6,6 +6,10 @@
       "amount": 250000,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 874653.97,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231600070000790000144",
@@ -22,17 +26,25 @@
     "transactionDate": "2023-06-02T00:00:00.00Z",
     "transactionPostDate": "2023-06-06T00:00:00.00Z",
     "transactionAmount": {
-      "amount": 359.48,
+      "amount": -6323.94,
+      "currencyCode": "LKR"
+    },
+    "transactionAmountForeignCurrency": {
+      "amount": 20.99,
+      "currencyCode": "USD"
+    },
+    "cumulativeBalance": {
+      "amount": 624653.97,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
-      "debitCreditIndicator": "1",
-      "referenceNumber": "VT231570070000610000024",
+      "debitCreditIndicator": "2",
+      "referenceNumber": "VT231410070001410000213",
       "transactionType": null
     },
     "transactionDescriptions": {
-      "transactionCategory": "CASH_BACK",
-      "transactionPartner": "DROPME COLOMBO",
+      "transactionCategory": "PURCHASE",
+      "transactionPartner": "Adobe Dublin IE",
       "transactionMode": "SYSTEM GENERATED"
     },
     "transactionAccountId": "1"
@@ -42,6 +54,10 @@
     "transactionPostDate": "2023-06-05T00:00:00.00Z",
     "transactionAmount": {
       "amount": 3399,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 630977.91,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -63,6 +79,10 @@
       "amount": 2710.7,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 627578.91,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231530070000650000170",
@@ -80,6 +100,10 @@
     "transactionPostDate": "2023-06-02T00:00:00.00Z",
     "transactionAmount": {
       "amount": 926.78,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 624868.21,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -101,6 +125,10 @@
       "amount": 923.17,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 623941.43,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231530070000500000129",
@@ -118,6 +146,10 @@
     "transactionPostDate": "2023-06-02T00:00:00.00Z",
     "transactionAmount": {
       "amount": 5777.18,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 623018.26,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -139,6 +171,10 @@
       "amount": 200,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 617241.08,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231530070000940000042",
@@ -158,6 +194,10 @@
       "amount": 44185.29,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 617041.08,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "2",
       "referenceNumber": " T231500083000010001400",
@@ -174,7 +214,11 @@
     "transactionDate": "2023-05-23T00:00:00.00Z",
     "transactionPostDate": "2023-05-25T00:00:00.00Z",
     "transactionAmount": {
-      "amount": 167.49,
+      "amount": -167.49,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 572855.79,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -183,8 +227,8 @@
       "transactionType": null
     },
     "transactionDescriptions": {
-      "transactionCategory": "CASH_BACK",
-      "transactionPartner": "DROPME COLOMBO",
+      "transactionCategory": "TAX",
+      "transactionPartner": "GOVT TAX",
       "transactionMode": "SYSTEM GENERATED"
     },
     "transactionAccountId": "1"
@@ -194,6 +238,10 @@
     "transactionPostDate": "2023-05-25",
     "transactionAmount": {
       "amount": 167.52,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 573023.28,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -215,6 +263,10 @@
       "amount": 100,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 572855.76,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231450070000060000255",
@@ -232,6 +284,10 @@
     "transactionPostDate": "2023-05-24",
     "transactionAmount": {
       "amount": 25,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 572755.76,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -253,6 +309,10 @@
       "amount": 205.84,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 572730.76,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231440070000630000172",
@@ -270,6 +330,10 @@
     "transactionPostDate": "2023-05-24",
     "transactionAmount": {
       "amount": 6270,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 572524.92,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -291,6 +355,10 @@
       "amount": 200,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 566254.92,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231440070001030000137",
@@ -310,6 +378,10 @@
       "amount": 173.36,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 566054.92,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231430070000780000229",
@@ -325,22 +397,23 @@
   {
     "transactionDate": "2023-05-14",
     "transactionPostDate": "2023-05-22",
+
     "transactionAmount": {
-      "amount": -6323.94,
+      "amount": 359.48,
       "currencyCode": "LKR"
     },
-    "transactionAmountForeignCurrency": {
-      "amount": 20.99,
-      "currencyCode": "USD"
+    "cumulativeBalance": {
+      "amount": 565881.56,
+      "currencyCode": "LKR"
     },
     "transactionInformation": {
-      "debitCreditIndicator": "2",
-      "referenceNumber": "VT231410070001410000213",
+      "debitCreditIndicator": "1",
+      "referenceNumber": "VT231570070000610000024",
       "transactionType": null
     },
     "transactionDescriptions": {
-      "transactionCategory": "PURCHASE",
-      "transactionPartner": "Adobe Dublin IE",
+      "transactionCategory": "CASH_BACK",
+      "transactionPartner": "DROPME COLOMBO",
       "transactionMode": "SYSTEM GENERATED"
     },
     "transactionAccountId": "1"
@@ -350,6 +423,10 @@
     "transactionPostDate": "2023-05-18",
     "transactionAmount": {
       "amount": 44.43,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 565522.08,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -369,6 +446,10 @@
     "transactionPostDate": "2023-05-18",
     "transactionAmount": {
       "amount": -200,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 565477.65,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -394,6 +475,10 @@
       "amount": 20.99,
       "currencyCode": "USD"
     },
+    "cumulativeBalance": {
+      "amount": 565677.65,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231360070002160000188",
@@ -411,6 +496,10 @@
     "transactionPostDate": "2023-05-16",
     "transactionAmount": {
       "amount": -181.57,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 572601.5,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -436,6 +525,10 @@
       "amount": 0.99,
       "currencyCode": "USD"
     },
+    "cumulativeBalance": {
+      "amount": 572783.07,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231340070001030000219",
@@ -453,6 +546,10 @@
     "transactionPostDate": "2023-05-09",
     "transactionAmount": {
       "amount": -2740,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 573109.65,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -474,6 +571,10 @@
       "amount": -436.18,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 575849.65,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231270134000410000067",
@@ -491,6 +592,10 @@
     "transactionPostDate": "2023-05-08",
     "transactionAmount": {
       "amount": -4900,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 576285.83,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -512,6 +617,10 @@
       "amount": -1000.31,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 581185.83,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231270119000720000181",
@@ -529,6 +638,10 @@
     "transactionPostDate": "2023-05-08",
     "transactionAmount": {
       "amount": -170.47,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 582186.14,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -550,6 +663,10 @@
       "amount": -55468.35,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 582356.61,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "2",
       "referenceNumber": " T231230082000010001072",
@@ -567,6 +684,10 @@
     "transactionPostDate": "2023-05-02",
     "transactionAmount": {
       "amount": -6442.5,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 637824.96,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -588,6 +709,10 @@
       "amount": -6300,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 644267.46,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231200083000040000178",
@@ -605,6 +730,10 @@
     "transactionPostDate": "2023-05-02",
     "transactionAmount": {
       "amount": -178,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 650567.46,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -626,6 +755,10 @@
       "amount": -10500,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 650745.46,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231180070000040000007",
@@ -643,6 +776,10 @@
     "transactionPostDate": "2023-04-27",
     "transactionAmount": {
       "amount": 250000,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 661245.46,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -664,6 +801,10 @@
       "amount": -1600,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 411245.46,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231160070000500000071",
@@ -681,6 +822,10 @@
     "transactionPostDate": "2023-04-26",
     "transactionAmount": {
       "amount": -200,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 412845.46,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -702,6 +847,10 @@
       "amount": -25,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 413045.46,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "19999999980424999751610",
@@ -719,6 +868,10 @@
     "transactionPostDate": "2023-04-21",
     "transactionAmount": {
       "amount": 56.2,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 413070.46,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -740,6 +893,10 @@
       "amount": -200,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 413014.26,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231110070000190000119",
@@ -757,6 +914,10 @@
     "transactionPostDate": "2023-04-20",
     "transactionAmount": {
       "amount": 968.4,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 413214.26,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -778,6 +939,10 @@
       "amount": -1039.5,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 412245.86,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "UT231100075000040000340",
@@ -795,6 +960,10 @@
     "transactionPostDate": "2023-04-20",
     "transactionAmount": {
       "amount": -2490,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 413285.36,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -816,6 +985,10 @@
       "amount": -7177.06,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 415775.36,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231060119000880000081",
@@ -835,6 +1008,10 @@
       "amount": -412.59,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 422952.42,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231060119000370000074",
@@ -852,6 +1029,10 @@
     "transactionPostDate": "2023-04-17",
     "transactionAmount": {
       "amount": -333.6,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 423365.01,
       "currencyCode": "LKR"
     },
     "transactionAmountForeignCurrency": {
@@ -877,6 +1058,10 @@
       "amount": -176.26,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 423698.61,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT231010070001260000135",
@@ -894,6 +1079,10 @@
     "transactionPostDate": "2023-04-11",
     "transactionAmount": {
       "amount": -171.68,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 423874.87,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -915,6 +1104,10 @@
       "amount": -168,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 424046.55,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230990132000620000207",
@@ -932,6 +1125,10 @@
     "transactionPostDate": "2023-04-06",
     "transactionAmount": {
       "amount": -3099,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 424214.55,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -953,6 +1150,10 @@
       "amount": -5900,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 427313.55,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230950070000100000174",
@@ -970,6 +1171,10 @@
     "transactionPostDate": "2023-04-04",
     "transactionAmount": {
       "amount": -3000,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 433213.55,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -991,6 +1196,10 @@
       "amount": -1322.84,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 436213.55,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230940070001090000120",
@@ -1008,6 +1217,10 @@
     "transactionPostDate": "2023-04-03",
     "transactionAmount": {
       "amount": -200,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 437536.39,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1029,6 +1242,10 @@
       "amount": -163.82,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 437736.39,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230900070000670000151",
@@ -1046,6 +1263,10 @@
     "transactionPostDate": "2023-03-31",
     "transactionAmount": {
       "amount": -163.88,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 437900.21,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1067,6 +1288,10 @@
       "amount": 54724,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 438064.09,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "2",
       "referenceNumber": " T230860075000010003520",
@@ -1084,6 +1309,10 @@
     "transactionPostDate": "2023-03-27",
     "transactionAmount": {
       "amount": -29700,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 383340.09,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1105,6 +1334,10 @@
       "amount": 250000,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 413040.09,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "19999999980324999796230",
@@ -1122,6 +1355,10 @@
     "transactionPostDate": "2023-03-24",
     "transactionAmount": {
       "amount": -588.81,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 163040.09,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1143,6 +1380,10 @@
       "amount": -25,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 163628.9,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "19999999980324999796240",
@@ -1162,6 +1403,10 @@
       "amount": 18.23,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 163653.9,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "2",
       "referenceNumber": "UT230830079000120000491",
@@ -1179,6 +1424,10 @@
     "transactionPostDate": "2023-03-22",
     "transactionAmount": {
       "amount": -100,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 163635.67,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1201,6 +1450,10 @@
       "amount": -100,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 163735.67,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230810070000490000010",
@@ -1218,6 +1471,10 @@
     "transactionPostDate": "2023-03-21",
     "transactionAmount": {
       "amount": -176.12,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 163835.67,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1239,6 +1496,10 @@
       "amount": -1750,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 164011.79,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "19999999980320999964590",
@@ -1256,6 +1517,10 @@
     "transactionPostDate": "2023-03-17",
     "transactionAmount": {
       "amount": -176.63,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 165761.79,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1277,6 +1542,10 @@
       "amount": -199.84,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 165938.42,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230760070000780000149",
@@ -1294,6 +1563,10 @@
     "transactionPostDate": "2023-03-14",
     "transactionAmount": {
       "amount": -5600,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 166138.26,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1315,6 +1588,10 @@
       "amount": -8000,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 171738.26,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230730070001010000010",
@@ -1332,6 +1609,10 @@
     "transactionPostDate": "2023-03-14",
     "transactionAmount": {
       "amount": -509.07,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 179738.26,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1357,6 +1638,10 @@
       "amount": 0.99,
       "currencyCode": "USD"
     },
+    "cumulativeBalance": {
+      "amount": 180247.33,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230720062000450000083",
@@ -1374,6 +1659,10 @@
     "transactionPostDate": "2023-03-13",
     "transactionAmount": {
       "amount": -3384,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 180581.62,
       "currencyCode": "LKR"
     },
     "transactionInformation": {
@@ -1395,6 +1684,10 @@
       "amount": -168.38,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 183965.62,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230690069000920000118",
@@ -1414,6 +1707,10 @@
       "amount": -100,
       "currencyCode": "LKR"
     },
+    "cumulativeBalance": {
+      "amount": 184134,
+      "currencyCode": "LKR"
+    },
     "transactionInformation": {
       "debitCreditIndicator": "1",
       "referenceNumber": "VT230640069000170000206",
@@ -1431,6 +1728,10 @@
     "transactionPostDate": "2023-03-02",
     "transactionAmount": {
       "amount": -5636,
+      "currencyCode": "LKR"
+    },
+    "cumulativeBalance": {
+      "amount": 184234,
       "currencyCode": "LKR"
     },
     "transactionInformation": {

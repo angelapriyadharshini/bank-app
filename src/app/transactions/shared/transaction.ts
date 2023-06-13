@@ -1,13 +1,14 @@
 export interface Transaction {
   transactionDate: Date;
   transactionPostDate: Date;
-  transactionAmount: TransactionAmount;
+  transactionAmount: Balance;
+  cumulativeBalance: Balance;
   transactionInformation: TransactionInformation;
   transactionDescriptions: TransactionDescriptions;
   transactionAccountId: string;
 }
 
-export interface TransactionAmount {
+export interface Balance {
   amount: number;
   currencyCode: string;
 }

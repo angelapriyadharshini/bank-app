@@ -1,51 +1,75 @@
-<mat-card>
-  <mat-card-header>Transactions</mat-card-header>
+<mat-card class="transaction-body">
+
+  <mat-card-header class="transaction-title"> </mat-card-header>
   <mat-card-content>
     <form [formGroup]="transactionHistoryForm" (ngSubmit)="onSubmit()">
-      <div>
-        <mat-form-field>
-          <mat-label>Enter a date range</mat-label>
-          <mat-date-range-input [rangePicker]="picker">
-            <input
-              matStartDate
-              formControlName="start"
-              placeholder="Start date"
-            />
-            <input matEndDate formControlName="end" placeholder="End date" />
-          </mat-date-range-input>
-          <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
-          <mat-datepicker-toggle
-            matIconSuffix
-            [for]="picker"
-          ></mat-datepicker-toggle>
-          <mat-date-range-picker #picker></mat-date-range-picker>
-          <mat-error
-            *ngIf="
-              transactionHistoryForm.controls.start.hasError(
-                'matStartDateInvalid'
-              )
-            "
-            >Invalid start date</mat-error
-          >
-          <mat-error
-            *ngIf="
-              transactionHistoryForm.controls.end.hasError('matEndDateInvalid')
-            "
-            >Invalid end date</mat-error
-          >
-        </mat-form-field>
-      </div>
-      <div>
-        <mat-form-field>
-          <mat-label>Input</mat-label>
-          <input matInput formControlName="keyword" />
-          <mat-error></mat-error>
-        </mat-form-field>
-        <button type="submit">Search</button>
-      </div>
-    </form>
 
-    <p>Selected range: {{ transactionHistoryForm.value | json }}</p>
+      <mat-accordion>
+        <mat-expansion-panel hideToggle>
+
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-card-title class="transaction-title">Transactions</mat-card-title>
+            </mat-panel-title>
+
+            <mat-panel-description>
+              <button type="button" class="search-and-filter" mat-stroked-button>
+                Search and filter
+              </button>
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+
+          <mat-form-field class="flex-row-item" floatLabel="always">
+            <mat-date-range-input [rangePicker]="picker">
+              <input matStartDate formControlName="start" placeholder="Start date" />
+              <input matEndDate formControlName="end" placeholder="End date (MM/DD/YYYY)" />
+            </mat-date-range-input>
+            <mat-datepicker-toggle color="#5a5a99" matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+          </mat-form-field>
+          
+          <mat-form-field class="flex-row-item keyword-field">
+            <mat-label>Input</mat-label>
+            <input matInput formControlName="keyword" />
+            <mat-error></mat-error>
+          </mat-form-field>
+
+          <div class="flex-row-item search-button">
+            <div class="search-icon-alignment">
+              <button [disabled]="transactionHistoryForm.invalid" mat-fab color="primary" type="submit">
+                <mat-icon>search</mat-icon>
+              </button>
+            </div>
+          </div>
+
+          <div class="flex-break"></div>
+
+          <mat-error *ngIf="transactionHistoryForm.controls.start.hasError('matDatepickerParse') 
+          && transactionHistoryForm.controls.start.touched" class="mat-error-position">
+            Invalid start date.</mat-error>
+
+          <mat-error *ngIf="!transactionHistoryForm.controls.start.hasError('matDatepickerParse') 
+          && transactionHistoryForm.controls.start.hasError('required') 
+          && transactionHistoryForm.controls.start.touched" class="mat-error-position">
+            Start date is required.</mat-error>
+
+          <mat-error *ngIf="transactionHistoryForm.controls.end.hasError('matDatepickerParse') 
+          && transactionHistoryForm.controls.end.touched" class="mat-error-position">
+            Invalid end date.
+          </mat-error>
+
+          <mat-error *ngIf="!transactionHistoryForm.controls.end.hasError('matDatepickerParse') 
+          && transactionHistoryForm.controls.end.hasError('required') 
+          && transactionHistoryForm.controls.end.touched" class="mat-error-position">
+            End date is required.
+          </mat-error>
+            
+        </mat-expansion-panel>
+
+      </mat-accordion>
+
+    </form>
+    
     <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
       <ng-container matColumnDef="transactionDate">
         <th mat-header-cell *matHeaderCellDef>Date</th>
@@ -61,21 +85,19 @@
         </td>
       </ng-container>
 
-      <ng-container class="currency-column" matColumnDef="transactionAmount">
+      <ng-container matColumnDef="transactionAmount">
         <th mat-header-cell *matHeaderCellDef>Amount</th>
         <td mat-cell *matCellDef="let element">
-          {{ element.transactionAmount.amount | currency : "LKR" : "" }}
+          {{ element.transactionAmount.amount | currency : element.transactionAmount.amount : "" }}
         </td>
       </ng-container>
+      <ng-container matColumnDef="cumulativeBalance">
+        <th mat-header-cell *matHeaderCellDef>Cumulative Balance</th>
+        <td mat-cell *matCellDef="let element">
+          {{ element.cumulativeBalance.amount }}
+        </td>
+      </ng-container>
+      <tr class="transaction-table-header" mat-header-row *matHeaderRowDef="transactionTableHeaders"></tr>
+      <tr mat-row *matRowDef="let row; columns: transactionTableHeaders"></tr></table></mat-card-content>
 
-      <tr
-        class="transaction-table-header"
-        mat-header-row
-        *matHeaderRowDef="transactionTableHeaders"
-      ></tr>
-      <tr
-        mat-row
-        *matRowDef="let row; columns: transactionTableHeaders"
-      ></tr></table
-  ></mat-card-content>
 </mat-card>
