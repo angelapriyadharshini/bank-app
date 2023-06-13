@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Savings Account",
-    "accountNumber": "099-34876-765",
+    "accountNumber": "0991-3876-7653",
     "accountStatus": "ACTIVE",
     "cumulativeBalance": 123456.73,
     "accountCurrency": "LKR",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Savings Account",
-    "accountNumber": "099-43353-922",
+    "accountNumber": "0991-4333-9221",
     "accountStatus": "INACTIVE",
     "cumulativeBalance": 16356.03,
     "accountCurrency": "LKR",

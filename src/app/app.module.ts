@@ -8,11 +8,12 @@ import { httpInterceptorProviders } from './core/interceptors';
 import { HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeENSL from '@angular/common/locales/en-SL';
+import { MaskPipe } from './shared/mask.pipe';
 
 registerLocaleData(localeENSL);
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MaskPipe],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   providers: [
     HttpClientModule,
