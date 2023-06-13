@@ -85,16 +85,27 @@
         </td>
       </ng-container>
 
-      <ng-container matColumnDef="transactionAmount">
+      <ng-container matColumnDef="transactionAmount" >
         <th mat-header-cell *matHeaderCellDef>Amount</th>
         <td mat-cell *matCellDef="let element">
-          {{ element.transactionAmount.amount | currency : element.transactionAmount.amount : "" }}
+          <span *ngIf="element.transactionInformation.debitCreditIndicator === credited && !isSavings">{{ element.transactionAmount.amount | currency : 'LKR'  :'' }}</span>
+          <span *ngIf="isSavings">{{ element.transactionAmount.amount | currency : 'LKR'  :'' }}</span>
+          <!-- {{ element.transactionInformation.debitCreditIndicator === credited ? element.transactionAmount.amount:null | currency : 'LKR' : '' }} -->
         </td>
       </ng-container>
-      <ng-container matColumnDef="cumulativeBalance">
+
+      <ng-container matColumnDef="amountOut" *ngIf="!isSavings">
+        <th mat-header-cell *matHeaderCellDef>Amount Out</th>
+        <td  mat-cell *matCellDef="let element">
+          <span *ngIf="element.transactionInformation.debitCreditIndicator === debited">{{ element.transactionAmount.amount | currency : 'LKR'  :'' }}</span>
+          <!-- {{ element.transactionAmount.amount | currency : 'LKR' :'symbol' }} -->
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="cumulativeBalance" *ngIf="isSavings">
         <th mat-header-cell *matHeaderCellDef>Cumulative Balance</th>
         <td mat-cell *matCellDef="let element">
-          {{ element.cumulativeBalance.amount }}
+          {{ element.cumulativeBalance.amount | currency:'LKR':'' }}
         </td>
       </ng-container>
       <tr class="transaction-table-header" mat-header-row *matHeaderRowDef="transactionTableHeaders"></tr>

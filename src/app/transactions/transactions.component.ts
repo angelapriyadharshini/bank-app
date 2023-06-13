@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule, JsonPipe, NgIf } from '@angular/common';
 import { MatTableModule } from '@angular/material/table';
 import { MatCardModule } from '@angular/material/card';
@@ -19,6 +19,7 @@ import {
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import { Constants } from '../app.constants';
 
 @Component({
   selector: 'app-transaction',
@@ -44,12 +45,12 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class TransactionsComponent {
   transactions: Transaction[] = [];
-  transactionTableHeaders: string[] = [
-    'transactionDate',
-    'transactionPartner',
-    'transactionAmount',
-    'cumulativeBalance',
-  ];
+  // isSavings = false;
+  @Input() isSavings = false;
+  lastColumn = '';
+  debited = Constants.DEBITED;
+  credited = Constants.CREDITED;
+  transactionTableHeaders: string[] = [];
   dataSource: Transaction[] = [];
   transactionHistoryForm = new FormGroup({
     start: new FormControl<Date | null>(null, Validators.required),
@@ -60,6 +61,15 @@ export class TransactionsComponent {
 
   constructor(private transactionService: TransactionService) {}
   ngOnInit() {
+    console.log('isSavings', this.isSavings);
+    console.log('Headers', this.transactionTableHeaders);
+    this.transactionTableHeaders = [
+      'transactionDate',
+      'transactionPartner',
+      'transactionAmount',
+      this.isSavings ? 'cumulativeBalance' : 'amountOut',
+    ];
+    // this.lastColumn = this.isSavings ? 'cumulativeBalance' : 'amountOut';
     this.getInitialTransactions();
   }
   onSubmit() {
@@ -69,16 +79,31 @@ export class TransactionsComponent {
   }
 
   getInitialTransactions() {
-    this.transactionService.getSavingsTransactions().subscribe({
-      next: (transactions) => {
-        this.transactions = transactions.slice(0, 10);
-        console.log(this.transactions);
-        this.dataSource = this.transactions;
-      },
-      error: (err) => {
-        console.log(err);
-      },
-    });
+    if (this.isSavings) {
+      console.log('SA called');
+      this.transactionService.getSavingsTransactions().subscribe({
+        next: (transactions) => {
+          this.transactions = transactions.slice(0, 10);
+          console.log(this.transactions);
+          this.dataSource = this.transactions;
+        },
+        error: (err) => {
+          console.log(err);
+        },
+      });
+    } else {
+      console.log('CC called');
+      this.transactionService.getCreditCardTransactions().subscribe({
+        next: (transactions) => {
+          this.transactions = transactions.slice(0, 10);
+          console.log(this.transactions);
+          this.dataSource = this.transactions;
+        },
+        error: (err) => {
+          console.log(err);
+        },
+      });
+    }
   }
 }
 

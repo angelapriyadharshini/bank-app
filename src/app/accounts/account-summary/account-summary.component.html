@@ -1,27 +1,30 @@
-<div class="account-summary">
-  <div class="account-summary-header">
-    <div class="account-summary-header-left">
-      <div class="account-title">{{ account.title }}</div>
-      <div class="account-details">
-        <div class="account-number">{{ account.accountNumber }}</div>
-        <div class="account-status">{{ account.accountStatus }}</div>
+<mat-card>
+  <mat-card-content style="background-color: #5a5a99;padding: 15px 100px;color: #ffffff;">
+    <div class="account-summary">
+      <div class="account-summary-header" style="padding: 15px 0;">
+        <div class="account-summary-header-left">
+          <div class="account-title">{{ account.title }}</div>
+          <div class="account-details">
+            <div class="account-number">{{ account.accountNumber }}</div>
+            <div class="account-status">{{ account.accountStatus }}</div>
+          </div>
+        </div>
+        <div class="account-summary-header-right">
+          <div class="account-balance">
+            {{ account.currentBalance
+            }}<span class="currency">{{ account.accountCurrency }}</span>
+          </div>
+          <button class="transfer-and-pay"></button>
+        </div>
       </div>
-    </div>
-    <div class="account-summary-header-right">
-      <div class="account-balance">
-        {{ account.cumulativeBalance
-        }}<span class="currency">{{ account.accountCurrency }}</span>
+      <div class="account-summary-container">
+        <div class="transaction-history">
+          <div class="transaction-history-container">
+            <ng-container *ngIf="isTransactionsLoaded"><app-transaction  [isSavings]="isSavings"></app-transaction></ng-container>
+          </div>
+        </div>
       </div>
-      <button class="transfer-and-pay"></button>
+      <div class="account-summary-footer"></div>
     </div>
-  </div>
-  <div class="account-summary-container">
-    <div class="transaction-history">
-      <div class="transaction-history-header">Title | Search</div>
-      <div class="transaction-history-container">
-        <div><app-transaction></app-transaction></div>
-      </div>
-    </div>
-  </div>
-  <div class="account-summary-footer"></div>
-</div>
+  </mat-card-content>
+</mat-card>

@@ -14,7 +14,9 @@ export class TransactionService {
     return this.http.get<Transaction[]>('assets/sa-transaction-history.json');
   }
 
-  getCreditCardTransactions() {}
+  getCreditCardTransactions() {
+    return this.http.get<Transaction[]>('assets/cc-transaction-history.json');
+  }
 
   // Todo - filter returns from and to upto 3 months
 }
