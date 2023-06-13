@@ -3,6 +3,7 @@ export interface Account {
   title: string;
   accountNumber: string;
   accountStatus: string;
-  cumulativeBalance: number;
+  currentBalance: number;
   accountCurrency: string;
+  accountType: string;
 }
