@@ -13,7 +13,7 @@ import { MaskPipe } from './shared/mask.pipe';
 registerLocaleData(localeENSL);
 
 @NgModule({
-  declarations: [AppComponent, MaskPipe],
+  declarations: [AppComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   providers: [
     HttpClientModule,
