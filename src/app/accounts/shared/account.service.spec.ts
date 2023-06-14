@@ -1,45 +1,64 @@
 import { TestBed } from '@angular/core/testing';
-
-import { Account, AccountService } from './account.service';
-import { of } from 'rxjs';
+import {
+  HttpClientTestingModule,
+  HttpTestingController,
+} from '@angular/common/http/testing';
+import { AccountService } from './account.service';
+import { Account } from './account';
+import { MaskPipe } from 'src/app/shared/mask.pipe';
 
 describe('AccountService', () => {
   let service: AccountService;
+  let httpTestingController: HttpTestingController;
+  let mockAccounts: Account[];
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [AccountService],
+      declarations: [MaskPipe],
+    });
     service = TestBed.inject(AccountService);
-  });
+    httpTestingController = TestBed.inject(HttpTestingController);
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
-
-  // test for getAccounts
-  it('#getAccounts should return all accounts from observable', (done: DoneFn) => {
-    const accounts: Account[] = [
+    mockAccounts = [
       {
         id: 1,
         title: 'Savings Account',
-        accountNumber: '099-34XXX-765',
+        accountNumber: '0991-3876-7653',
         accountStatus: 'ACTIVE',
-        cumulativeBalance: 123456.73,
+        currentBalance: 123456.73,
         accountCurrency: 'LKR',
+        accountType: 'SA',
       },
       {
         id: 2,
         title: 'Savings Account',
         accountNumber: '099-43XXX-922',
         accountStatus: 'INACTIVE',
-        cumulativeBalance: 16356.03,
+        currentBalance: 16356.03,
         accountCurrency: 'LKR',
+        accountType: 'CC',
       },
     ];
-    spyOn(service, 'getAccounts').and.returnValue(of(accounts));
+  });
 
-    service.getAccounts().subscribe((response) => {
-      expect(response).toEqual(accounts);
-      done();
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  // test for get all accounts
+  it('should return all accounts from observable', () => {
+    service.getAccounts().subscribe((accounts) => {
+      expect(accounts).toEqual(mockAccounts);
     });
+
+    const request = httpTestingController.expectOne(`assets/accounts.json`);
+    expect(request.request.method).toBe('GET');
+    request.flush(mockAccounts);
+  });
+
+  afterEach(() => {
+    httpTestingController.verify();
   });
 });
