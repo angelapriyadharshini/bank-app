@@ -1,15 +1,16 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { AccountService } from '../shared/account.service';
 import { Account } from '../shared/account';
 import { TransactionsComponent } from 'src/app/transactions/transactions.component';
 import { MatCardModule } from '@angular/material/card';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @Component({
   selector: 'app-account-summary',
   standalone: true,
-  imports: [CommonModule, TransactionsComponent, MatCardModule],
+  imports: [CommonModule, TransactionsComponent, MatCardModule, SharedModule],
   templateUrl: './account-summary.component.html',
   styleUrls: ['./account-summary.component.css'],
 })
@@ -29,15 +30,13 @@ export class AccountSummaryComponent {
 
   getAccountSummary() {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    // this.accountId = id;
-    this.accountService.getAccount(id).subscribe({
-      next: (account) => {
+
+    this.accountService.getAccounts().subscribe({
+      next: (accounts: Account[]) => {
         //  loading - false
-        console.log('Account Id', account.accountType);
-        this.isSavings = account.accountType === 'SA' ? true : false;
-        console.log('isSavings', this.isSavings);
+        this.account = accounts.filter((account) => account.id === id)[0];
+        this.isSavings = this.account.accountType === 'SA' ? true : false;
         this.isTransactionsLoaded = true;
-        this.account = account;
       },
       error: () => {
         //  loading - false
