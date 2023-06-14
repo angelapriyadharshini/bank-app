@@ -36,7 +36,7 @@
 
           <div class="flex-row-item search-button">
             <div class="search-icon-alignment">
-              <button [disabled]="transactionHistoryForm.invalid" mat-fab color="primary" type="submit">
+              <button [disabled]="transactionHistoryForm.invalid" type="submit" mat-fab color="primary">
                 <mat-icon>search</mat-icon>
               </button>
             </div>
@@ -107,6 +107,11 @@
         </td>
       </ng-container>
       <tr class="transaction-table-header" mat-header-row *matHeaderRowDef="transactionTableHeaders"></tr>
-      <tr mat-row *matRowDef="let row; columns: transactionTableHeaders"></tr></table></mat-card-content>
+      <tr mat-row *matRowDef="let row; columns: transactionTableHeaders"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons
+     aria-label="Select page of periodic elements">
+  </mat-paginator>
+  </mat-card-content>
 
 </mat-card>

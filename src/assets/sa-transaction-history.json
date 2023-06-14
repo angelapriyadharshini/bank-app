@@ -234,8 +234,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-23",
-    "transactionPostDate": "2023-05-25",
+    "transactionDate": "2023-05-23T00:00:00.00Z",
+    "transactionPostDate": "2023-05-25T00:00:00.00Z",
     "transactionAmount": {
       "amount": 167.52,
       "currencyCode": "LKR"
@@ -257,8 +257,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-22",
-    "transactionPostDate": "2023-05-25",
+    "transactionDate": "2023-05-22T00:00:00.00Z",
+    "transactionPostDate": "2023-05-25T00:00:00.00Z",
     "transactionAmount": {
       "amount": 100,
       "currencyCode": "LKR"
@@ -280,8 +280,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-24",
-    "transactionPostDate": "2023-05-24",
+    "transactionDate": "2023-05-24T00:00:00.00Z",
+    "transactionPostDate": "2023-05-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": 25,
       "currencyCode": "LKR"
@@ -303,8 +303,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-22",
-    "transactionPostDate": "2023-05-24",
+    "transactionDate": "2023-05-22T00:00:00.00Z",
+    "transactionPostDate": "2023-05-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": 205.84,
       "currencyCode": "LKR"
@@ -326,8 +326,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-20",
-    "transactionPostDate": "2023-05-24",
+    "transactionDate": "2023-05-20T00:00:00.00Z",
+    "transactionPostDate": "2023-05-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": 6270,
       "currencyCode": "LKR"
@@ -349,8 +349,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-20",
-    "transactionPostDate": "2023-05-24",
+    "transactionDate": "2023-05-20T00:00:00.00Z",
+    "transactionPostDate": "2023-05-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": 200,
       "currencyCode": "LKR"
@@ -372,8 +372,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-19",
-    "transactionPostDate": "2023-05-23",
+    "transactionDate": "2023-05-19T00:00:00.00Z",
+    "transactionPostDate": "2023-05-23T00:00:00.00Z",
     "transactionAmount": {
       "amount": 173.36,
       "currencyCode": "LKR"
@@ -395,8 +395,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-14",
-    "transactionPostDate": "2023-05-22",
+    "transactionDate": "2023-05-14T00:00:00.00Z",
+    "transactionPostDate": "2023-05-22T00:00:00.00Z",
 
     "transactionAmount": {
       "amount": 359.48,
@@ -419,8 +419,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-18",
-    "transactionPostDate": "2023-05-18",
+    "transactionDate": "2023-05-18T00:00:00.00Z",
+    "transactionPostDate": "2023-05-18T00:00:00.00Z",
     "transactionAmount": {
       "amount": 44.43,
       "currencyCode": "LKR"
@@ -442,8 +442,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-18",
-    "transactionPostDate": "2023-05-18",
+    "transactionDate": "2023-05-18T00:00:00.00Z",
+    "transactionPostDate": "2023-05-18T00:00:00.00Z",
     "transactionAmount": {
       "amount": -200,
       "currencyCode": "LKR"
@@ -465,8 +465,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-14",
-    "transactionPostDate": "2023-05-16",
+    "transactionDate": "2023-05-14T00:00:00.00Z",
+    "transactionPostDate": "2023-05-16T00:00:00.00Z",
     "transactionAmount": {
       "amount": -6923.85,
       "currencyCode": "LKR"
@@ -492,8 +492,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-14",
-    "transactionPostDate": "2023-05-16",
+    "transactionDate": "2023-05-14T00:00:00.00Z",
+    "transactionPostDate": "2023-05-16T00:00:00.00Z",
     "transactionAmount": {
       "amount": -181.57,
       "currencyCode": "LKR"
@@ -515,8 +515,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-11",
-    "transactionPostDate": "2023-05-15",
+    "transactionDate": "2023-05-11T00:00:00.00Z",
+    "transactionPostDate": "2023-05-15T00:00:00.00Z",
     "transactionAmount": {
       "amount": -326.58,
       "currencyCode": "LKR"
@@ -542,8 +542,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-04",
-    "transactionPostDate": "2023-05-09",
+    "transactionDate": "2023-05-04T00:00:00.00Z",
+    "transactionPostDate": "2023-05-09T00:00:00.00Z",
     "transactionAmount": {
       "amount": -2740,
       "currencyCode": "LKR"
@@ -565,8 +565,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-03",
-    "transactionPostDate": "2023-05-08",
+    "transactionDate": "2023-05-03T00:00:00.00Z",
+    "transactionPostDate": "2023-05-08T00:00:00.00Z",
     "transactionAmount": {
       "amount": -436.18,
       "currencyCode": "LKR"
@@ -588,8 +588,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-03",
-    "transactionPostDate": "2023-05-08",
+    "transactionDate": "2023-05-03T00:00:00.00Z",
+    "transactionPostDate": "2023-05-08T00:00:00.00Z",
     "transactionAmount": {
       "amount": -4900,
       "currencyCode": "LKR"
@@ -611,8 +611,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-03",
-    "transactionPostDate": "2023-05-08",
+    "transactionDate": "2023-05-03T00:00:00.00Z",
+    "transactionPostDate": "2023-05-08T00:00:00.00Z",
     "transactionAmount": {
       "amount": -1000.31,
       "currencyCode": "LKR"
@@ -634,8 +634,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-03",
-    "transactionPostDate": "2023-05-08",
+    "transactionDate": "2023-05-03T00:00:00.00Z",
+    "transactionPostDate": "2023-05-08T00:00:00.00Z",
     "transactionAmount": {
       "amount": -170.47,
       "currencyCode": "LKR"
@@ -657,8 +657,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-05-03",
-    "transactionPostDate": "2023-05-03",
+    "transactionDate": "2023-05-03T00:00:00.00Z",
+    "transactionPostDate": "2023-05-03T00:00:00.00Z",
     "transactionAmount": {
       "amount": -55468.35,
       "currencyCode": "LKR"
@@ -680,8 +680,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-28",
-    "transactionPostDate": "2023-05-02",
+    "transactionDate": "2023-04-28T00:00:00.00Z",
+    "transactionPostDate": "2023-05-02T00:00:00.00Z",
     "transactionAmount": {
       "amount": -6442.5,
       "currencyCode": "LKR"
@@ -703,8 +703,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-27",
-    "transactionPostDate": "2023-05-02",
+    "transactionDate": "2023-04-27T00:00:00.00Z",
+    "transactionPostDate": "2023-05-02T00:00:00.00Z",
     "transactionAmount": {
       "amount": -6300,
       "currencyCode": "LKR"
@@ -726,8 +726,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-27",
-    "transactionPostDate": "2023-05-02",
+    "transactionDate": "2023-04-27T00:00:00.00Z",
+    "transactionPostDate": "2023-05-02T00:00:00.00Z",
     "transactionAmount": {
       "amount": -178,
       "currencyCode": "LKR"
@@ -749,8 +749,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-25",
-    "transactionPostDate": "2023-04-28",
+    "transactionDate": "2023-04-25T00:00:00.00Z",
+    "transactionPostDate": "2023-04-28T00:00:00.00Z",
     "transactionAmount": {
       "amount": -10500,
       "currencyCode": "LKR"
@@ -772,8 +772,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-24",
-    "transactionPostDate": "2023-04-27",
+    "transactionDate": "2023-04-24T00:00:00.00Z",
+    "transactionPostDate": "2023-04-27T00:00:00.00Z",
     "transactionAmount": {
       "amount": 250000,
       "currencyCode": "LKR"
@@ -795,8 +795,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-21",
-    "transactionPostDate": "2023-04-26",
+    "transactionDate": "2023-04-21T00:00:00.00Z",
+    "transactionPostDate": "2023-04-26T00:00:00.00Z",
     "transactionAmount": {
       "amount": -1600,
       "currencyCode": "LKR"
@@ -818,8 +818,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-21",
-    "transactionPostDate": "2023-04-26",
+    "transactionDate": "2023-04-21T00:00:00.00Z",
+    "transactionPostDate": "2023-04-26T00:00:00.00Z",
     "transactionAmount": {
       "amount": -200,
       "currencyCode": "LKR"
@@ -841,8 +841,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-24",
-    "transactionPostDate": "2023-04-24",
+    "transactionDate": "2023-04-24T00:00:00.00Z",
+    "transactionPostDate": "2023-04-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": -25,
       "currencyCode": "LKR"
@@ -864,8 +864,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-21",
-    "transactionPostDate": "2023-04-21",
+    "transactionDate": "2023-04-21T00:00:00.00Z",
+    "transactionPostDate": "2023-04-21T00:00:00.00Z",
     "transactionAmount": {
       "amount": 56.2,
       "currencyCode": "LKR"
@@ -887,8 +887,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-18",
-    "transactionPostDate": "2023-04-21",
+    "transactionDate": "2023-04-18T00:00:00.00Z",
+    "transactionPostDate": "2023-04-21T00:00:00.00Z",
     "transactionAmount": {
       "amount": -200,
       "currencyCode": "LKR"
@@ -910,8 +910,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-20",
-    "transactionPostDate": "2023-04-20",
+    "transactionDate": "2023-04-20T00:00:00.00Z",
+    "transactionPostDate": "2023-04-20T00:00:00.00Z",
     "transactionAmount": {
       "amount": 968.4,
       "currencyCode": "LKR"
@@ -933,8 +933,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-20",
-    "transactionPostDate": "2023-04-20",
+    "transactionDate": "2023-04-20T00:00:00.00Z",
+    "transactionPostDate": "2023-04-20T00:00:00.00Z",
     "transactionAmount": {
       "amount": -1039.5,
       "currencyCode": "LKR"
@@ -956,8 +956,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-17",
-    "transactionPostDate": "2023-04-20",
+    "transactionDate": "2023-04-17T00:00:00.00Z",
+    "transactionPostDate": "2023-04-20T00:00:00.00Z",
     "transactionAmount": {
       "amount": -2490,
       "currencyCode": "LKR"
@@ -979,8 +979,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-11",
-    "transactionPostDate": "2023-04-17",
+    "transactionDate": "2023-04-11T00:00:00.00Z",
+    "transactionPostDate": "2023-04-17T00:00:00.00Z",
     "transactionAmount": {
       "amount": -7177.06,
       "currencyCode": "LKR"
@@ -1002,8 +1002,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-11",
-    "transactionPostDate": "2023-04-17",
+    "transactionDate": "2023-04-11T00:00:00.00Z",
+    "transactionPostDate": "2023-04-17T00:00:00.00Z",
     "transactionAmount": {
       "amount": -412.59,
       "currencyCode": "LKR"
@@ -1025,8 +1025,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-11",
-    "transactionPostDate": "2023-04-17",
+    "transactionDate": "2023-04-11T00:00:00.00Z",
+    "transactionPostDate": "2023-04-17T00:00:00.00Z",
     "transactionAmount": {
       "amount": -333.6,
       "currencyCode": "LKR"
@@ -1052,8 +1052,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-07",
-    "transactionPostDate": "2023-04-11",
+    "transactionDate": "2023-04-07T00:00:00.00Z",
+    "transactionPostDate": "2023-04-11T00:00:00.00Z",
     "transactionAmount": {
       "amount": -176.26,
       "currencyCode": "LKR"
@@ -1075,8 +1075,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-06",
-    "transactionPostDate": "2023-04-11",
+    "transactionDate": "2023-04-06T00:00:00.00Z",
+    "transactionPostDate": "2023-04-11T00:00:00.00Z",
     "transactionAmount": {
       "amount": -171.68,
       "currencyCode": "LKR"
@@ -1098,8 +1098,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-06",
-    "transactionPostDate": "2023-04-10",
+    "transactionDate": "2023-04-06T00:00:00.00Z",
+    "transactionPostDate": "2023-04-10T00:00:00.00Z",
     "transactionAmount": {
       "amount": -168,
       "currencyCode": "LKR"
@@ -1121,8 +1121,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-03",
-    "transactionPostDate": "2023-04-06",
+    "transactionDate": "2023-04-03T00:00:00.00Z",
+    "transactionPostDate": "2023-04-06T00:00:00.00Z",
     "transactionAmount": {
       "amount": -3099,
       "currencyCode": "LKR"
@@ -1144,8 +1144,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-31",
-    "transactionPostDate": "2023-04-06",
+    "transactionDate": "2023-03-31T00:00:00.00Z",
+    "transactionPostDate": "2023-04-06T00:00:00.00Z",
     "transactionAmount": {
       "amount": -5900,
       "currencyCode": "LKR"
@@ -1167,8 +1167,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-04-01",
-    "transactionPostDate": "2023-04-04",
+    "transactionDate": "2023-04-01T00:00:00.00Z",
+    "transactionPostDate": "2023-04-04T00:00:00.00Z",
     "transactionAmount": {
       "amount": -3000,
       "currencyCode": "LKR"
@@ -1190,8 +1190,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-31",
-    "transactionPostDate": "2023-04-04",
+    "transactionDate": "2023-03-31T00:00:00.00Z",
+    "transactionPostDate": "2023-04-04T00:00:00.00Z",
     "transactionAmount": {
       "amount": -1322.84,
       "currencyCode": "LKR"
@@ -1213,8 +1213,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-30",
-    "transactionPostDate": "2023-04-03",
+    "transactionDate": "2023-03-30T00:00:00.00Z",
+    "transactionPostDate": "2023-04-03T00:00:00.00Z",
     "transactionAmount": {
       "amount": -200,
       "currencyCode": "LKR"
@@ -1236,8 +1236,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-29",
-    "transactionPostDate": "2023-03-31",
+    "transactionDate": "2023-03-29T00:00:00.00Z",
+    "transactionPostDate": "2023-03-31T00:00:00.00Z",
     "transactionAmount": {
       "amount": -163.82,
       "currencyCode": "LKR"
@@ -1259,8 +1259,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-29",
-    "transactionPostDate": "2023-03-31",
+    "transactionDate": "2023-03-29T00:00:00.00Z",
+    "transactionPostDate": "2023-03-31T00:00:00.00Z",
     "transactionAmount": {
       "amount": -163.88,
       "currencyCode": "LKR"
@@ -1282,8 +1282,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-27",
-    "transactionPostDate": "2023-03-27",
+    "transactionDate": "2023-03-27T00:00:00.00Z",
+    "transactionPostDate": "2023-03-27T00:00:00.00Z",
     "transactionAmount": {
       "amount": 54724,
       "currencyCode": "LKR"
@@ -1305,8 +1305,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-23",
-    "transactionPostDate": "2023-03-27",
+    "transactionDate": "2023-03-23T00:00:00.00Z",
+    "transactionPostDate": "2023-03-27T00:00:00.00Z",
     "transactionAmount": {
       "amount": -29700,
       "currencyCode": "LKR"
@@ -1328,8 +1328,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-24",
-    "transactionPostDate": "2023-03-24",
+    "transactionDate": "2023-03-24T00:00:00.00Z",
+    "transactionPostDate": "2023-03-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": 250000,
       "currencyCode": "LKR"
@@ -1351,8 +1351,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-24",
-    "transactionPostDate": "2023-03-24",
+    "transactionDate": "2023-03-24T00:00:00.00Z",
+    "transactionPostDate": "2023-03-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": -588.81,
       "currencyCode": "LKR"
@@ -1374,8 +1374,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-24",
-    "transactionPostDate": "2023-03-24",
+    "transactionDate": "2023-03-24T00:00:00.00Z",
+    "transactionPostDate": "2023-03-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": -25,
       "currencyCode": "LKR"
@@ -1397,8 +1397,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-24",
-    "transactionPostDate": "2023-03-24",
+    "transactionDate": "2023-03-24T00:00:00.00Z",
+    "transactionPostDate": "2023-03-24T00:00:00.00Z",
     "transactionAmount": {
       "amount": 18.23,
       "currencyCode": "LKR"
@@ -1420,8 +1420,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-18",
-    "transactionPostDate": "2023-03-22",
+    "transactionDate": "2023-03-18T00:00:00.00Z",
+    "transactionPostDate": "2023-03-22T00:00:00.00Z",
     "transactionAmount": {
       "amount": -100,
       "currencyCode": "LKR"
@@ -1444,8 +1444,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-18",
-    "transactionPostDate": "2023-03-22",
+    "transactionDate": "2023-03-18T00:00:00.00Z",
+    "transactionPostDate": "2023-03-22T00:00:00.00Z",
     "transactionAmount": {
       "amount": -100,
       "currencyCode": "LKR"
@@ -1467,8 +1467,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-19",
-    "transactionPostDate": "2023-03-21",
+    "transactionDate": "2023-03-19T00:00:00.00Z",
+    "transactionPostDate": "2023-03-21T00:00:00.00Z",
     "transactionAmount": {
       "amount": -176.12,
       "currencyCode": "LKR"
@@ -1490,8 +1490,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-20",
-    "transactionPostDate": "2023-03-20",
+    "transactionDate": "2023-03-20T00:00:00.00Z",
+    "transactionPostDate": "2023-03-20T00:00:00.00Z",
     "transactionAmount": {
       "amount": -1750,
       "currencyCode": "LKR"
@@ -1513,8 +1513,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-15",
-    "transactionPostDate": "2023-03-17",
+    "transactionDate": "2023-03-15T00:00:00.00Z",
+    "transactionPostDate": "2023-03-17T00:00:00.00Z",
     "transactionAmount": {
       "amount": -176.63,
       "currencyCode": "LKR"
@@ -1536,8 +1536,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-15",
-    "transactionPostDate": "2023-03-17",
+    "transactionDate": "2023-03-15T00:00:00.00Z",
+    "transactionPostDate": "2023-03-17T00:00:00.00Z",
     "transactionAmount": {
       "amount": -199.84,
       "currencyCode": "LKR"
@@ -1559,8 +1559,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-11",
-    "transactionPostDate": "2023-03-14",
+    "transactionDate": "2023-03-11T00:00:00.00Z",
+    "transactionPostDate": "2023-03-14T00:00:00.00Z",
     "transactionAmount": {
       "amount": -5600,
       "currencyCode": "LKR"
@@ -1582,8 +1582,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-10",
-    "transactionPostDate": "2023-03-14",
+    "transactionDate": "2023-03-10T00:00:00.00Z",
+    "transactionPostDate": "2023-03-14T00:00:00.00Z",
     "transactionAmount": {
       "amount": -8000,
       "currencyCode": "LKR"
@@ -1605,8 +1605,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-10",
-    "transactionPostDate": "2023-03-14",
+    "transactionDate": "2023-03-10T00:00:00.00Z",
+    "transactionPostDate": "2023-03-14T00:00:00.00Z",
     "transactionAmount": {
       "amount": -509.07,
       "currencyCode": "LKR"
@@ -1628,8 +1628,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-11",
-    "transactionPostDate": "2023-03-13",
+    "transactionDate": "2023-03-11T00:00:00.00Z",
+    "transactionPostDate": "2023-03-13T00:00:00.00Z",
     "transactionAmount": {
       "amount": -334.29,
       "currencyCode": "LKR"
@@ -1655,8 +1655,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-08",
-    "transactionPostDate": "2023-03-13",
+    "transactionDate": "2023-03-08T00:00:00.00Z",
+    "transactionPostDate": "2023-03-13T00:00:00.00Z",
     "transactionAmount": {
       "amount": -3384,
       "currencyCode": "LKR"
@@ -1678,8 +1678,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-03-08",
-    "transactionPostDate": "2023-03-10",
+    "transactionDate": "2023-03-08T00:00:00.00Z",
+    "transactionPostDate": "2023-03-10T00:00:00.00Z",
     "transactionAmount": {
       "amount": -168.38,
       "currencyCode": "LKR"
@@ -1701,8 +1701,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-02-28",
-    "transactionPostDate": "2023-03-07",
+    "transactionDate": "2023-02-28T00:00:00.00Z",
+    "transactionPostDate": "2023-03-07T00:00:00.00Z",
     "transactionAmount": {
       "amount": -100,
       "currencyCode": "LKR"
@@ -1724,8 +1724,8 @@
     "transactionAccountId": "1"
   },
   {
-    "transactionDate": "2023-02-27",
-    "transactionPostDate": "2023-03-02",
+    "transactionDate": "2023-02-27T00:00:00.00Z",
+    "transactionPostDate": "2023-03-02T00:00:00.00Z",
     "transactionAmount": {
       "amount": -5636,
       "currencyCode": "LKR"
