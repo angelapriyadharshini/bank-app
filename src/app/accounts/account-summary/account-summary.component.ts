@@ -5,12 +5,11 @@ import { AccountService } from '../shared/account.service';
 import { Account } from '../shared/account';
 import { TransactionsComponent } from 'src/app/transactions/transactions.component';
 import { MatCardModule } from '@angular/material/card';
-import { SharedModule } from 'src/app/shared/shared.module';
 
 @Component({
   selector: 'app-account-summary',
   standalone: true,
-  imports: [CommonModule, TransactionsComponent, MatCardModule, SharedModule],
+  imports: [CommonModule, TransactionsComponent, MatCardModule],
   templateUrl: './account-summary.component.html',
   styleUrls: ['./account-summary.component.css'],
 })

@@ -3,7 +3,7 @@
     <li *ngFor="let account of accounts">
       <div class="account-details">
         <div routerLink="/accounts/{{ account.id }}">{{ account.title }}</div>
-        <div>{{ account.accountNumber }}</div>
+        <div>{{ account.accountNumber | mask}}</div>
       </div>
       <div class="account-details-right">
         <div class="balance">{{ account.currentBalance }}</div>

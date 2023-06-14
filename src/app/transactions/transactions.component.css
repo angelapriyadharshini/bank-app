@@ -36,6 +36,7 @@
   flex-grow: 1;
   justify-content: end;
   display: flex;
+  flex: 2 1 auto;
 }
 ::ng-deep .mat-expansion-panel-body {
   padding: 0 0 16px;
@@ -52,6 +53,8 @@
 }
 
 .search-button {
+  flex-grow: 1;
+  justify-content: space-evenly;
   height: 50px;
   width: 50px;
   font-size: 16px;
@@ -88,10 +91,6 @@
 
 .search-and-filter {
   width: 200px;
-}
-
-.search-button {
-  flex-grow: 0;
 }
 
 .keyword-field {

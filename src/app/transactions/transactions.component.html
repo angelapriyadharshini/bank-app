@@ -1,6 +1,7 @@
 <mat-card class="transaction-body">
 
   <mat-card-header class="transaction-title"> </mat-card-header>
+
   <mat-card-content>
     <form [formGroup]="transactionHistoryForm" (ngSubmit)="onSubmit()">
 
@@ -24,7 +25,7 @@
               <input matStartDate formControlName="start" placeholder="Start date" />
               <input matEndDate formControlName="end" placeholder="End date (MM/DD/YYYY)" />
             </mat-date-range-input>
-            <mat-datepicker-toggle color="#5a5a99" matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-date-range-picker #picker></mat-date-range-picker>
           </mat-form-field>
           
@@ -38,6 +39,12 @@
             <div class="search-icon-alignment">
               <button [disabled]="transactionHistoryForm.invalid" type="submit" mat-fab color="primary">
                 <mat-icon>search</mat-icon>
+              </button>
+            </div>
+
+            <div class="search-icon-alignment">
+              <button type="button" mat-fab color="primary" (click)="resetFilters()">
+                <mat-icon>replay</mat-icon>
               </button>
             </div>
           </div>
@@ -86,7 +93,7 @@
       </ng-container>
 
       <ng-container matColumnDef="transactionAmount" >
-        <th mat-header-cell *matHeaderCellDef>Amount</th>
+        <th mat-header-cell *matHeaderCellDef>{{amountColumnHeader}}</th>
         <td mat-cell *matCellDef="let element">
           <span *ngIf="element.transactionInformation.debitCreditIndicator === credited && !isSavings">{{ element.transactionAmount.amount | currency : 'LKR'  :'' }}</span>
           <span *ngIf="isSavings">{{ element.transactionAmount.amount | currency : 'LKR'  :'' }}</span>
@@ -106,12 +113,16 @@
           {{ element.cumulativeBalance.amount | currency:'LKR':'' }}
         </td>
       </ng-container>
+
       <tr class="transaction-table-header" mat-header-row *matHeaderRowDef="transactionTableHeaders"></tr>
       <tr mat-row *matRowDef="let row; columns: transactionTableHeaders"></tr>
     </table>
+    <mat-divider></mat-divider>
+
     <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons
      aria-label="Select page of periodic elements">
   </mat-paginator>
+
   </mat-card-content>
 
 </mat-card>

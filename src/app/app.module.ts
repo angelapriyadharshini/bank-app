@@ -8,7 +8,7 @@ import { httpInterceptorProviders } from './core/interceptors';
 import { HttpClientModule } from '@angular/common/http';
 import { registerLocaleData } from '@angular/common';
 import localeENSL from '@angular/common/locales/en-SL';
-import { MaskPipe } from './shared/mask.pipe';
+import { Helper } from './shared/helper';
 
 registerLocaleData(localeENSL);
 
@@ -18,6 +18,7 @@ registerLocaleData(localeENSL);
   providers: [
     HttpClientModule,
     httpInterceptorProviders,
+    Helper,
     { provide: LOCALE_ID, useValue: 'en-SL' },
   ],
   bootstrap: [AppComponent],
