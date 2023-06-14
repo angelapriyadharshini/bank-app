@@ -5,7 +5,7 @@
         <div class="account-summary-header-left">
           <div class="account-title">{{ account.title }}</div>
           <div class="account-details">
-            <div class="account-number">{{ account.accountNumber }}</div>
+            <div class="account-number">{{ account.accountNumber | mask }}</div>
             <div class="account-status">{{ account.accountStatus }}</div>
           </div>
         </div>
