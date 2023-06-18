@@ -1,30 +1,99 @@
-<mat-card>
-  <mat-card-content style="background-color: #5a5a99;padding: 15px 100px;color: #ffffff;">
-    <div class="account-summary">
-      <div class="account-summary-header" style="padding: 15px 0;">
-        <div class="account-summary-header-left">
-          <div class="account-title">{{ account.title }}</div>
-          <div class="account-details">
-            <div class="account-number">{{ account.accountNumber }}</div>
-            <div class="account-status">{{ account.accountStatus }}</div>
-          </div>
+<div class="account-summary-header">
+    <div class="account-summary-header-content">
+        <div class="account-title">
+            <mat-card-title>{{ account.title }}</mat-card-title>
         </div>
-        <div class="account-summary-header-right">
-          <div class="account-balance">
-            {{ account.currentBalance
-            }}<span class="currency">{{ account.accountCurrency }}</span>
-          </div>
-          <button class="transfer-and-pay"></button>
+        <div class="account-details">
+            <div class="account-number">
+                <mat-card-subtitle>{{ account.accountNumber }}</mat-card-subtitle>
+            </div>
         </div>
-      </div>
-      <div class="account-summary-container">
-        <div class="transaction-history">
-          <div class="transaction-history-container">
-            <ng-container *ngIf="isTransactionsLoaded"><app-transaction  [isSavings]="isSavings"></app-transaction></ng-container>
-          </div>
-        </div>
-      </div>
-      <div class="account-summary-footer"></div>
     </div>
-  </mat-card-content>
+    <div class="account-summary-header-content">
+        <div class="account-balance">
+            <mat-card-title>{{ account.currentBalance }} {{ account.accountCurrency }}</mat-card-title>
+        </div>
+        <div class="account-status">
+            <mat-card-subtitle>{{ account.accountStatus }}</mat-card-subtitle>
+        </div>
+    </div>
+    <div class="user-profile-container">
+        <img class="user-profile" width="40px" height="40px" src="../../../assets/img/user-image.png">
+    </div>
+</div>
+<mat-card>
+    <mat-card-content class="summary-content">
+        <div class="account-summary">
+            <div class="back-button">
+                <div routerLink=".." class="back-button-link">
+                    <span class="icon-font material-symbols-outlined">
+                        arrow_back_ios
+                    </span>
+                    Back
+                </div>
+            </div>
+            <div class="quick-link-container">
+                <mat-card class="quick-link-card">
+                    <mat-card-header class="quick-link-header">Pay & Transfer</mat-card-header>
+                    <mat-card-content class="icon-container">
+                        <button class="icon-button" mat-icon-button color="primary">
+                            <span class="material-symbols-outlined">
+                                account_balance_wallet
+                            </span>
+                        </button>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="quick-link-card">
+                    <mat-card-header class="quick-link-header">Receive Money</mat-card-header>
+                    <mat-card-content class="icon-container">
+                        <button class="icon-button" mat-icon-button color="primary">
+                            <span class="material-symbols-outlined">
+                                payments
+                            </span>
+                        </button>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="quick-link-card">
+                    <mat-card-header class="quick-link-header">Manage Payees</mat-card-header>
+                    <mat-card-content class="icon-container">
+                        <button class="icon-button" mat-icon-button color="primary">
+                            <span class="material-symbols-outlined">
+                                manage_accounts
+                            </span>
+                        </button>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="quick-link-card">
+                    <mat-card-header class="quick-link-header">e-Statements</mat-card-header>
+                    <mat-card-content class="icon-container">
+                        <button class="icon-button" mat-icon-button color="primary">
+                            <span class="material-symbols-outlined">
+                                file_copy
+                            </span>
+                        </button>
+                    </mat-card-content>
+                </mat-card>
+                <mat-card class="quick-link-card">
+                    <mat-card-header class="quick-link-header">Contact Us</mat-card-header>
+                    <mat-card-content class="icon-container">
+                        <button class="icon-button" mat-icon-button color="primary">
+                            <span class="material-symbols-outlined">
+                                call
+                            </span>
+                        </button>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+            <div class="account-summary-container">
+                <div class="transaction-history">
+                  <div class="transaction-history-container">
+                    <ng-container *ngIf="isTransactionsLoaded">
+                      <app-transaction  [isSavings]="isSavings"></app-transaction>
+                    </ng-container>
+                  </div>
+                </div>
+            </div>
+            <div class="account-summary-footer"></div>
+        </div>
+    </mat-card-content>
 </mat-card>

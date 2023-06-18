@@ -34,16 +34,11 @@
 
 ::ng-deep .flex-row-item {
   flex-grow: 1;
-  justify-content: end;
+  justify-content: flex-end;
   display: flex;
   flex: 2 1 auto;
 }
-::ng-deep .mat-expansion-panel-body {
-  padding: 0 0 16px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
 ::ng-deep .mat-expansion-panel-content {
   flex-grow: 1;
 }

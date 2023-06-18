@@ -38,13 +38,17 @@
           <div class="flex-row-item search-button">
             <div class="search-icon-alignment">
               <button [disabled]="transactionHistoryForm.invalid" type="submit" mat-fab color="primary">
-                <mat-icon>search</mat-icon>
+                <span class="material-symbols-outlined">
+                  search
+                  </span>
               </button>
             </div>
 
             <div class="search-icon-alignment">
               <button type="button" mat-fab color="primary" (click)="resetFilters()">
-                <mat-icon>replay</mat-icon>
+                <span class="material-symbols-outlined">
+                  replay
+                  </span>
               </button>
             </div>
           </div>
@@ -117,7 +121,6 @@
       <tr class="transaction-table-header" mat-header-row *matHeaderRowDef="transactionTableHeaders"></tr>
       <tr mat-row *matRowDef="let row; columns: transactionTableHeaders"></tr>
     </table>
-    <mat-divider></mat-divider>
 
     <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons
      aria-label="Select page of periodic elements">
