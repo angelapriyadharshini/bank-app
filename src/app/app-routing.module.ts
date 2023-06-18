@@ -5,10 +5,7 @@ import { AccountSummaryComponent } from './accounts/account-summary/account-summ
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'accounts' },
-  {
-    path: 'accounts',
-    component: AccountsComponent,
-  },
+  { path: 'accounts', component: AccountsComponent },
   { path: 'accounts/:id', component: AccountSummaryComponent },
 ];
 
