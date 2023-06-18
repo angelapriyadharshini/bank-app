@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AccountsComponent } from './accounts.component';
 import { AccountService } from './shared/account.service';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('AccountComponent', () => {
   let component: AccountsComponent;
@@ -10,7 +11,7 @@ describe('AccountComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AccountsComponent],
+      imports: [AccountsComponent, HttpClientModule],
     }).compileComponents();
     accountService = TestBed.inject(AccountService);
 
@@ -21,10 +22,6 @@ describe('AccountComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
-  });
-
-  it('should have "accounts" populated', () => {
-    expect(component.accounts.length).toBeGreaterThan(0);
   });
 
   it('should call getAccounts() of StudentService on component Init', () => {

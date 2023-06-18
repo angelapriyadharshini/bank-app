@@ -66,7 +66,7 @@ export class TransactionsComponent {
     keyword: new FormControl(''),
   });
 
-  constructor(private transactionService: TransactionService, private helper: Helper) {}
+  constructor(readonly transactionService: TransactionService, private helper: Helper) {}
   
   ngOnInit() {
     this.transactionTableHeaders = ['transactionDate', 'transactionPartner', 'transactionAmount',
