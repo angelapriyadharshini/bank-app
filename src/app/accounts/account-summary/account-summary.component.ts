@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { AccountService } from '../shared/account.service';
 import { Account } from '../shared/account';
 import { TransactionsComponent } from 'src/app/transactions/transactions.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-account-summary',
   standalone: true,
-  imports: [CommonModule, TransactionsComponent, MatCardModule],
+  imports: [CommonModule, TransactionsComponent, MatCardModule, MatButtonModule, RouterModule],
   templateUrl: './account-summary.component.html',
   styleUrls: ['./account-summary.component.css'],
 })

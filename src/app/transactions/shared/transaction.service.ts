@@ -17,6 +17,5 @@ export class TransactionService {
   getCreditCardTransactions() {
     return this.http.get<Transaction[]>('assets/cc-transaction-history.json');
   }
-
-  // Todo - filter returns from and to upto 3 months
+  
 }

@@ -4,13 +4,14 @@ import { RouterModule } from '@angular/router';
 import { AccountService } from './shared/account.service';
 import { Account } from './shared/account';
 import { SharedModule } from '../shared/shared.module';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'app-account',
   standalone: true,
   templateUrl: './accounts.component.html',
   styleUrls: ['./accounts.component.css'],
-  imports: [CommonModule, RouterModule, SharedModule],
+  imports: [CommonModule, RouterModule, SharedModule, MatCardModule],
 })
 export class AccountsComponent {
   accounts: Account[] = [];
@@ -31,4 +32,6 @@ export class AccountsComponent {
       },
     });
   }
+
+  
 }
